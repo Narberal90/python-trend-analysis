@@ -1,0 +1,81 @@
+keywords:
+  # python frameworks
+  - django
+  - flask
+  - fastapi
+  - tornado
+  - pyramid
+  - web2py
+  - rest
+  - react
+
+  # databases
+  - postgresql
+  - mysql
+  - sqlite
+  - mongodb
+  - redis
+  - cassandra
+  - oracle
+  - mariadb
+
+  # devops and ci/cd tools
+  - docker
+  - kubernetes
+  - jenkins
+  - gitlab ci/cd
+  - travis ci
+  - circleci
+  - ansible
+  - terraform
+  - vagrant
+
+  # cloud providers
+  - aws
+  - azure
+  - gcp
+  - digitalocean
+  - heroku
+
+  # message brokers
+  - rabbitmq
+  - kafka
+  - celery
+
+  # other technologies and libraries
+  - pandas
+  - numpy
+  - scipy
+  - tensorflow
+  - pytorch
+  - scikit-learn
+  - opencv
+  - beautifulsoup
+  - selenium
+  - sqlalchemy
+  - jwt
+  - websocket
+
+  # version control
+  - git
+  - github
+  - gitlab
+  - bitbucket
+
+  # operating systems
+  - linux
+  - windows
+  - macos
+
+  # asynchronous frameworks
+  - asyncio
+  - tornado
+
+  # concurrency tools
+  - multithreading
+  - multiprocessing
+
+  # programming languages
+  - javascript
+  - c++
+  - java
