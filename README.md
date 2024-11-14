@@ -9,7 +9,6 @@ requested by employers looking for Python developers.
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
-- [Requirements](#requirements)
 - [Usage](#usage)
 - [Features](#features)
 - [Data Collection](#data-collection)
