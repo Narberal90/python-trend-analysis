@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-
 def analyze_data():
     csv_path = "data/tech_skills.csv"
     if os.path.exists(csv_path):
@@ -12,18 +11,17 @@ def analyze_data():
         counts = df.iloc[0]
 
         sns.set_theme(style="darkgrid")
-        plt.figure(figsize=(14, 6))
+        plt.figure(figsize=(14, 8))
         plt.bar(technologies, counts, color="skyblue")
 
         plt.ylabel("Count")
         plt.xlabel("Technology")
         plt.title("Count by Technology")
-        plt.xticks(rotation=75)
 
-        plt.savefig("visualizations/technology_trend.png")
+        plt.xticks(rotation=75, ha="right", fontsize=10)
+        plt.tight_layout()
+
+        plt.savefig("visualizations/technology_trend.png", bbox_inches="tight")
         plt.show()
     else:
         print("CSV file not found. Please ensure the spider ran successfully and saved the file.")
-
-
-

@@ -74,3 +74,5 @@ The project generates bar charts and trend lines showing the popularity of vario
 
 ## License
 This project is licensed under the MIT License.
+
+![Опис зображення](visualizations/technology_trend.png)
